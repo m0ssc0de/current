@@ -1,0 +1,1 @@
+docker run -d --restart=always -v `pwd`:/workdir -e START=11910000 -e FINAL=11919999 -e STATE_PATH=/workdir/state-11910000-11919999.json --name 11910000-11919999 yesq/google_zx:env2
